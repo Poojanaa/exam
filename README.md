@@ -1139,10 +1139,12 @@ void MinMax(int arr[], int low, int high, int &min, int &max)
 {
 if (low == high)
 {
-if (max < arr[low]) {           // comparison 1
+if (max < arr[low]) 
+{           // comparison 1
 max = arr[low];
 }
-if (min > arr[high]) {          // comparison 2
+if (min > arr[high])
+{          // comparison 2
 min = arr[high];
 }
 return;
